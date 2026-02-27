@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - n8n Agent</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .contact {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for n8n Agent</h1>
+    <p class="last-updated">Last Updated: February 27, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>n8n Agent ("we", "our", or "the app") is an AI assistant application that connects to your personal n8n workflow automation platform via webhooks. This privacy policy explains how the app handles your data and permissions.</p>
+
+    <h2>2. Data Collection and Usage</h2>
+    <p>n8n Agent is designed with privacy in mind. The app operates as a client that sends data directly to your own n8n webhook endpoint that you configure. We do not operate any backend servers that collect, store, or process your data.</p>
+
+    <h3>2.1 Data You Provide</h3>
+    <p>When you use n8n Agent, the following data is sent directly to your configured n8n webhook:</p>
+    <ul>
+        <li><strong>Text messages:</strong> Any text you type in the chat interface</li>
+        <li><strong>Voice recordings:</strong> Audio files when you use the voice recording feature</li>
+        <li><strong>Images and videos:</strong> Media files you choose to share from your camera or gallery</li>
+        <li><strong>GPS location:</strong> Your device's location coordinates when location services are enabled</li>
+    </ul>
+
+    <h3>2.2 Local Storage</h3>
+    <p>The app stores the following data locally on your device:</p>
+    <ul>
+        <li><strong>Conversation history:</strong> Your chat messages and responses are stored locally to provide message history</li>
+        <li><strong>Webhook configuration:</strong> Your n8n webhook URLs and names are stored locally</li>
+        <li><strong>App settings:</strong> Your preferences such as text-to-speech settings</li>
+    </ul>
+    <p>This data remains on your device and is not transmitted to any third-party servers operated by us.</p>
+
+    <h2>3. Permissions Explained</h2>
+    <p>n8n Agent requires the following Android permissions to function:</p>
+
+    <h3>3.1 Camera Permission (android.permission.CAMERA)</h3>
+    <p><strong>Purpose:</strong> Allows you to take photos and videos to send to your n8n workflow.</p>
+    <p><strong>Usage:</strong> Only activated when you explicitly tap the camera button. Photos and videos are sent directly to your configured n8n webhook endpoint.</p>
+
+    <h3>3.2 Microphone Permission</h3>
+    <p><strong>Purpose:</strong> Enables voice recording functionality.</p>
+    <p><strong>Usage:</strong> Only activated when you press and hold the microphone button. Audio recordings are sent directly to your configured n8n webhook endpoint.</p>
+
+    <h3>3.3 Location Permission</h3>
+    <p><strong>Purpose:</strong> Provides GPS coordinates to your n8n workflow for location-aware automation.</p>
+    <p><strong>Usage:</strong> Location data is included with messages when location services are enabled. Background location updates occur every 6 hours to keep your n8n workflow informed of your location.</p>
+
+    <h3>3.4 Storage/Media Library Permission</h3>
+    <p><strong>Purpose:</strong> Allows you to select existing photos and videos from your device to send to your n8n workflow, and to save images received from your workflow.</p>
+    <p><strong>Usage:</strong> Only activated when you choose to select media from your gallery or save images.</p>
+
+    <h2>4. Data Sharing and Third Parties</h2>
+    <p>n8n Agent does not share your data with any third parties. All data you generate through the app is sent exclusively to the n8n webhook URL that you configure. You have complete control over where your data goes.</p>
+    <p><strong>Important:</strong> The privacy and security of your data depends on your n8n instance and webhook configuration. We recommend:</p>
+    <ul>
+        <li>Using HTTPS URLs for your webhooks</li>
+        <li>Securing your n8n instance with proper authentication</li>
+        <li>Reviewing your n8n workflow's data handling practices</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>The app stores data locally on your device using Android's secure storage mechanisms. Conversation history and settings are protected by your device's security features (screen lock, encryption, etc.).</p>
+    <p>Data transmitted to your n8n webhook is sent over the network protocol specified in your webhook URL. We strongly recommend using HTTPS URLs to ensure data is encrypted in transit.</p>
+
+    <h2>6. Data Retention and Deletion</h2>
+    <p>You can delete your local data at any time by:</p>
+    <ul>
+        <li>Clearing conversation history within the app settings</li>
+        <li>Uninstalling the app (removes all locally stored data)</li>
+    </ul>
+    <p>Data sent to your n8n webhook is subject to your own data retention policies. n8n Agent does not retain copies of data sent to your webhook.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>n8n Agent is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. The "Last Updated" date at the top of this policy indicates when it was last revised. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>9. Your Rights</h2>
+    <p>Since all data is stored locally on your device or sent to your own n8n instance, you have complete control over your data. You can:</p>
+    <ul>
+        <li>Access your data through the app interface</li>
+        <li>Delete your data by clearing conversation history or uninstalling the app</li>
+        <li>Control what data is sent by managing app permissions in Android settings</li>
+        <li>Export or manage data received by your n8n workflow through your n8n instance</li>
+    </ul>
+
+    <h2>10. Contact Information</h2>
+    <div class="contact">
+        <p>If you have questions about this privacy policy or n8n Agent's privacy practices, please contact us at:</p>
+        <p><strong>Email:</strong> conchisv@gmail.com</p>
+        <p><strong>App Name:</strong> n8n Agent</p>
+        <p><strong>Package Name:</strong> com.n8nagent.app</p>
+    </div>
+
+    <h2>11. Open Source and Transparency</h2>
+    <p>n8n Agent is built with transparency in mind. The app does not include any analytics, tracking, or advertising SDKs. All data flows are direct from your device to your configured n8n webhook endpoint.</p>
+
+    <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
+    <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
+        This privacy policy is effective as of February 27, 2026
+    </p>
+</body>
+</html>
